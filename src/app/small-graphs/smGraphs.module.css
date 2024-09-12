@@ -1,0 +1,49 @@
+.main{
+  width: 80%;
+  min-height: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+.main > div{
+  width: 225px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: hsla(228, 28%, 20%,1);
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.main > .facebook{
+  border-top:10px solid blue;
+  padding-top: 5px;
+}
+.main > .twitter{
+  border-top:10px solid aqua;
+  padding-top: 5px;
+}
+.main > .instagram{
+  border-top:10px solid #bc1888;
+  padding-top: 5px;
+}
+.main > .youtube{
+  border-top:10px solid red;
+  padding-top: 5px;
+}
+.main > div div{
+  width: auto;
+}
+.main .icon{
+  margin-right:5px;
+}
+.main div div:nth-child(1){
+  color:hsl(228, 34%, 66%);
+}
+.main div div:nth-child(2){
+  font-size: 42px;
+}
+.main div div:nth-child(3){
+  font-size: 22px;
+  font-weight:100!important;
+}

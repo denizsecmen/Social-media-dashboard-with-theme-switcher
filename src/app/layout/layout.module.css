@@ -1,0 +1,16 @@
+.layout{
+  width: 80%;
+  min-height: 80px;
+  margin-bottom: 20px;
+
+  font-family: 'Inter';
+  z-index: 2;
+  margin-top: 3%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main{
+  font-size: 24px;
+  margin-bottom: 10px;
+}
