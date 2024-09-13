@@ -3,6 +3,7 @@
   min-height: 180px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .main > div{
   width: 225px;
@@ -14,6 +15,8 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 20px;
+  margin-right: 8px;
 }
 .main > .facebook{
   border-top:10px solid blue;
