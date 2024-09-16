@@ -1,5 +1,16 @@
 .main{
   min-height: 200px;
+  width: 80%;
+  margin-top: 30px;
+}
+.row{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.box{
+  width: 200px;
+  height: 130px;
+  background-color: hsla(228, 28%, 20%,1);
+  border-radius: 10px;
 }
