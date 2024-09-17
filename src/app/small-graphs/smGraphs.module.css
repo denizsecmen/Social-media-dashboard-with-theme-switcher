@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  height: auto!important;
+  background-color: aqua;
 }
 .main > div{
   width: 225px;

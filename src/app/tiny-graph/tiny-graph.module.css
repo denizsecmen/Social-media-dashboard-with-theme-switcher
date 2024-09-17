@@ -1,7 +1,8 @@
 .main{
-  min-height: 200px;
+  min-height: 30px;
   width: 80%;
   margin-top: 30px;
+  position: relative;
 }
 .row{
   display: flex;
@@ -26,4 +27,8 @@
 }
 .box > div{
   width: 90%;
+}
+.box > .data{
+  margin-top: 20px;
+  font-size: 32px;
 }
