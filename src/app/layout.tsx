@@ -1,6 +1,8 @@
 import './globals.css';
 import Home from './page';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../app/layout/layout.module.css'; // Your custom CSS file
 export default function RootLayout() {
   return (
     <html lang="en">
