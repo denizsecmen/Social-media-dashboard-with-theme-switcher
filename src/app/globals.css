@@ -3,13 +3,13 @@ body{
   padding: 0;
   width:100vw;
   min-height:100vh;
-  background-color: hsl(230, 17%, 14%);
+  background-color: hsl(230, 17%, 14%)!important;
   font-family: Inter;
-  color: white;
+  color: white!important;
 }
 #long{
    height: 15vh; 
-   background-color: hsla(225, 100%, 98%,0.05);
+   background-color: hsla(225, 100%, 98%,0.05)!important;
 }
 #wave{
   width: 100%;
