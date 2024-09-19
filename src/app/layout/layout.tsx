@@ -1,5 +1,5 @@
 import styles from './layout.module.css';
-import { Switch } from '@chakra-ui/react'
+import { Flex, Switch } from '@chakra-ui/react'
 export default function Layout() {
 
   return (
@@ -8,7 +8,10 @@ export default function Layout() {
         <div className={styles.main}>Social Media Dashboard</div>
         <div className={styles.data}>Total Followers: 23,004</div> 
       </div>
-      <Switch id="theme-switcher" minLength={700} colorScheme='teal' ></Switch>
+      <div className={styles.switch}>
+        <p>Dark Mode</p>
+        <Switch className={styles.switch} display="Flex" colorScheme='teal' ></Switch>
+      </div>  
     </div>
   );
 }
