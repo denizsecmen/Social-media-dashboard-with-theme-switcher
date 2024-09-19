@@ -16,7 +16,10 @@
 }
 .switch{
   display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
-.switch p{
-  margin-right: 10px;
+.switch div{
+  font-size: 15px;
 }
