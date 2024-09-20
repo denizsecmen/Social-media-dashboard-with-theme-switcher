@@ -2,10 +2,21 @@
 import styles from './layout.module.css';
 import { Flex, Switch } from '@chakra-ui/react';
 import { useContext,useState } from 'react';
-import My,{MyContext} from '../context/context';
+import { MyContext } from '../context/context';
 export default function Layout() {
   const context = useContext(MyContext);
-  console.log(context);
+  function sw()
+  {
+    if (context.modes == "dark")
+    {
+      context.setMode('ligth');
+    }
+    else
+    {
+      context.setMode('dark');
+    }
+    console.log(context.modes);
+  }
   return (
     <div className={styles.layout}>
       <div className={styles.text}>
@@ -21,13 +32,13 @@ export default function Layout() {
           height:"15px",
         '& .chakra-switch__track': {
           height: '15px',
-          width:'30px',// Adjust track height if needed
+          width:'30px',
         },
         '& .chakra-switch__thumb': {
-          width: '15px', // Adjust thumb width if needed
-          height: '15px', // Adjust thumb height if needed
-        },
-      }}  display="Flex" colorScheme='teal' ></Switch>
+          width: '15px', 
+          height: '15px', 
+          },
+      }} onChange={sw}  display="Flex" colorScheme='teal' ></Switch>
       </div>  
     </div>
   );

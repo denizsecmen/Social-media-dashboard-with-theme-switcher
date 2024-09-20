@@ -12,7 +12,7 @@ const defaultContextValue: MyContextType = {
 const MyContext = createContext<MyContextType>(defaultContextValue);
 
 const MyProvider = ({ children }: { children: React.ReactNode }) => {
-  const [modes, setMode] = useState<string>('default value');
+  const [modes, setMode] = useState<string>('dark');
 
   return (
     <MyContext.Provider value={{ modes, setMode }}>
