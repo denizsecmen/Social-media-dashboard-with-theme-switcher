@@ -1,7 +1,11 @@
+"use client"
 import styles from './layout.module.css';
-import { Flex, Switch } from '@chakra-ui/react'
+import { Flex, Switch } from '@chakra-ui/react';
+import { useContext,useState } from 'react';
+import My,{MyContext} from '../context/context';
 export default function Layout() {
-
+  const context = useContext(MyContext);
+  console.log(context);
   return (
     <div className={styles.layout}>
       <div className={styles.text}>
