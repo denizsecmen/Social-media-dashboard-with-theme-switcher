@@ -1,7 +1,10 @@
 import "./bg.css";
+import { useContext } from "react";
+import { MyContext } from "../context/context";
 export default function BG() {
+  let contx = useContext(MyContext);
   return (
-    <div className="dark-body">
+    <div className={contx.modes=="dark"?"dark-body":"light-body"}>
         <div id="long">
         </div>
         <div id="wave">
