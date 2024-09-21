@@ -15,7 +15,6 @@ export default function Layout() {
     {
       context.setMode('dark');
     }
-    console.log(context.modes);
   }
   return (
     <div className={styles.layout}>
