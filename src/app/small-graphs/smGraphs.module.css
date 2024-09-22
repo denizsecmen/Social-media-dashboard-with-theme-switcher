@@ -1,11 +1,18 @@
-.main{
+.dark{
   width: 80%;
   min-height: 180px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.main > div{
+.light{
+  width: 80%;
+  min-height: 180px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.dark> div {
   width: 225px;
   height: 200px;
   border-radius: 10px;
@@ -17,36 +24,62 @@
   align-items: center!important;
   margin-top: 20px;
 }
-.main > .facebook{
+.light >div{
+  width: 225px;
+  height: 200px;
+  border-radius: 10px;
+  background-color: hsl(230, 22%, 74%)!important;
+  z-index: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center!important;
+  margin-top: 20px;
+}
+ .facebook{
   border-top:10px solid blue;
   padding-top: 5px;
 }
-.main > .twitter{
+ .twitter{
   border-top:10px solid aqua;
   padding-top: 5px;
 }
-.main > .instagram{
+.instagram{
   border-top:10px solid #bc1888;
   padding-top: 5px;
 }
-.main > .youtube{
+ .youtube{
   border-top:10px solid red;
   padding-top: 5px;
 }
-.main > div div{
+.dark div div{
   width: auto;
 }
-.main .icon{
+.light  div div{
+  width: auto;
+}
+.icon{
   margin-right:5px;
 }
-.main div div:nth-child(1){
+.dark div div:nth-child(1){
   color:hsl(228, 34%, 66%);
   display: flex;
 }
-.main div div:nth-child(2){
+.light div div:nth-child(1){
+  color:hsl(228, 34%, 66%);
+  display: flex;
+}
+.dark div div:nth-child(2){
   font-size: 42px;
 }
-.main div div:nth-child(3){
+.light div div:nth-child(2){
+  font-size: 42px;
+}
+.dark div div:nth-child(3){
+  font-size: 22px;
+  font-weight:100!important;
+}
+.light div div:nth-child(3){
   font-size: 22px;
   font-weight:100!important;
 }

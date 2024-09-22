@@ -16,7 +16,6 @@ export default function RootLayout() {
       <body>
         <My >
           <Providers>
-            <BG />
             <Home />
         </Providers>
         </My>

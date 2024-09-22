@@ -7,16 +7,18 @@
   font-family: Inter;
   color: white!important;
   position: absolute;
+  z-index: -1;
 }
 .light-body{
   position: absolute;
   margin: 0;
   padding: 0;
   width:100vw;
-  min-height:100vh;
+  min-height: 100vh!important;;
   background-color: white;
   font-family: Inter;
   color: black!important;
+  z-index: -1;
 }
 #long{
    height: 15vh; 
