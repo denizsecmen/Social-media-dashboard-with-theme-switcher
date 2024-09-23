@@ -8,9 +8,8 @@ import Image from 'next/image';
 import { useContext } from 'react';
 import { MyContext } from '../context/context';
 export default function SmGraphs() {
-  let data = useContext(MyContext);
-  let mode = data.modes;
-  console.log(mode);
+  const data = useContext(MyContext);
+  const mode = data.modes;
   return (
     <div className={mode=="dark"?styles.dark:styles.light}>
       <div className={`${styles.facebook} ${mode ? mode : ''}`} id="fb">

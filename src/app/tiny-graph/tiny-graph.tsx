@@ -7,7 +7,7 @@ import yticon from '../images/icon-youtube.svg';
 import { useContext } from 'react';
 import {MyContext} from '../context/context';
 export default function TinyGraph() {
-  let data = useContext(MyContext);
+  const data = useContext(MyContext);
   return (
     <div className={styles.main}>
     <div className={styles.row}>

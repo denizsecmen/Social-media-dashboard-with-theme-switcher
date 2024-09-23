@@ -6,7 +6,6 @@ import My from './context/context';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../app/layout/layout.module.css'; 
-import BG from './bg/bg';
 export default function RootLayout() {
   return (
     <html lang="en">
