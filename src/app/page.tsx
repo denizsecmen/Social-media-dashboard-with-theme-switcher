@@ -8,12 +8,11 @@ import { MyContext } from "./context/context";
 import BG from "./bg/bg";
 
 const Home: React.FC = () => {
-  const refi = useRef<HTMLDivElement>(null);
   const data = useContext(MyContext);
 
   return (
-    <div ref={refi} className={data.modes === "dark" ? styles.main : styles.mainLight}>
-      <BG upperElementRef={refi} />
+    <div  className={data.modes === "dark" ? styles.main : styles.mainLight}>
+      <BG />
       <Layout />
       <SmGraphs />
       <TinyGraph />
