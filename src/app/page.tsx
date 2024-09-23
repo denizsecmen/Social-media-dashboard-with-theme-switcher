@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Layout from "./layout/layout";
 import SmGraphs from "./small-graphs/smGraphs";
 import TinyGraph from "./tiny-graph/tiny-graph";
-import { useContext, useRef } from "react";
+import { useContext } from "react";
 import { MyContext } from "./context/context";
 import BG from "./bg/bg";
 
